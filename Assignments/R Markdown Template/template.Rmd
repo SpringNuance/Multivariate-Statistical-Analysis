@@ -1,0 +1,72 @@
+---
+title: "Dummy homework"
+author: "Name"
+output:
+  bookdown::pdf_document2:
+    number_sections: no
+    toc: no
+---
+Here is a simple \textsf{R} Markdown template for presenting homework exercises. Notice that use of \textsf{R} Markdown is not compulsory.
+
+- Template includes some basic examples about code blocks, equations, figures and cross-referencing.
+
+- Rmd file can be compiled with the key combination \texttt{Ctrl + Shift + K} or by pressing the \texttt{Knit} button on \textsf{R} Studio interface.
+
+- Code chunk can be inserted with the key combination \texttt{Ctrl + Alt + I} or by pressing the \texttt{Insert} button on \textsf{R} Studio interface.
+
+- Equations work very similarly to \LaTeX. However, cross-referencing differs significantly from \LaTeX\ syntax.
+
+- Notice that cross-referencing is not provided in base R Markdown. [\textcolor{blue}{Bookdown}](https://github.com/rstudio/bookdown) package provides output formats that enable cross-referencing.
+
+- For more information about \textsf{R} Markdown, see
+
+  - [\textcolor{blue}{R Markdown: The Definitive Guide}](https://bookdown.org/yihui/rmarkdown/).
+  
+  - [\textcolor{blue}{R Markdown Cookbook}](https://bookdown.org/yihui/rmarkdown-cookbook/).
+  
+  - Especially, [\textcolor{blue}{Chapter 1}](https://bookdown.org/yihui/rmarkdown/installation.html) of the book "R Markdown: The Definitive Guide" includes instructions for installation of \textsf{R} Markdown.
+
+# Dummy exercise
+
+## Code blocks
+
+Below is an example code block.
+```{r}
+emis <- read.table("emissions.txt", header = TRUE, sep = "\t", row.names = 1)
+fit <- lm(NOx ~ ., data = emis)
+head(emis)
+```
+
+## Equations and inline R code 
+Value of the *coefficient of determination* is approximately $R^2 \approx$ `r round(summary(fit)$r.squared, 2)`. Previous value was actually computed with inline R command (see Rmd file)! Coefficient of determination can be calculated with the formula
+
+\begin{equation*}
+  R^2 = 1 - \frac{SSE}{SST}.
+\end{equation*}
+Additionally, one can have numbered equations and cross-reference them,
+\begin{equation} (\#eq:rsquared)
+  R^2 = 1 - \frac{SSE}{SST}.
+\end{equation}
+Coefficient of determination $R^2$ is calculated according to Equation \@ref(eq:rsquared).
+
+## Plotting
+
+Notice that labeled text is quite useful for making clean figure captions (see Rmd file).
+
+(ref:captionscatter) Scatter plot of variables.
+
+```{r scatter, fig.cap="(ref:captionscatter)"}
+pairs(emis, pch = 19, col = "midnightblue", gap = 0, upper.panel = NULL,
+      cex.labels = 1)
+```
+
+Figure \@ref(fig:scatter) suggests that there is negative correlation between variables \texttt{NOx} and \texttt{Humidity}.
+
+## Working directory
+
+Notice that while compiling \textsf{R} Markdown document, the working directory is by default the location of Rmd file.
+```{r}
+getwd()
+```
+
+See [\textcolor{blue}{Chapter 16.6}](https://bookdown.org/yihui/rmarkdown-cookbook/working-directory.html) of the book "R Markdown Cookbook" for more information.

@@ -1,0 +1,29 @@
+---
+title: "Assignment 1"
+author: "Nguyen Xuan Binh"
+header-includes:
+   - \usepackage{amssymb}
+output:
+  pdf_document:
+    toc: no
+    toc_depth: 1
+  word_document:
+    toc: no
+    toc_depth: '1'
+urlcolor: blue
+---
+
+## Homework Problem 1: Bivariate Correspondence Analysis
+
+The data `smoking.txt` contains a two-dimensional frequency table, where the employees of a company have been categorized according to their position (5 categories: SM = Senior Managers, JM= Junior Managers, SE = Senior Employees, JE = Junior Employees, SC = Secretaries). The smoking of the employees have 4 categories (None, Light, Medium, Heavy). Perform BCA using the function `ca`.
+
+a) Form the row and column profiles.
+
+b) How much of the variation is explained by the combination of components 1 and 3. Give the answer in percentages relative to the total variation.
+
+c) Produce the BCA graph with respect to the first two components.
+
+d) According to (c), which employees are more frequently heavy smokers? Justify!
+
+e) How much of the variation of the modality Heavy is explained by the first two components? How much of the variation of the modality Medium is explained by the first two components? Give the answers in percentages relative to the total variation. Hint: use the quality of representation.
+

@@ -1,0 +1,23 @@
+---
+title: "Assignment 1"
+author: "Nguyen Xuan Binh"
+header-includes:
+   - \usepackage{amssymb}
+output:
+  pdf_document:
+    toc: no
+    toc_depth: 1
+  word_document:
+    toc: no
+    toc_depth: '1'
+urlcolor: blue
+---
+
+## Homework 1: Influence Functions and Breakdown Points
+
+a) Derive the asymptotic and sample breakdown points of the sample median.
+
+b) Simulate a sample of your choice. Use the sample to plot the empirical influence function of the median. When plotting, make sure that the limits of the x-axis are chosen in such a way that it covers the values in your original sample.
+
+c) According to a) and b), is the sample median a robust estimator?
+

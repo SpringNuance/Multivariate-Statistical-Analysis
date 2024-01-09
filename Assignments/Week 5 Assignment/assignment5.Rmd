@@ -1,0 +1,25 @@
+---
+title: "Assignment 1"
+author: "Nguyen Xuan Binh"
+header-includes:
+   - \usepackage{amssymb}
+output:
+  pdf_document:
+    toc: no
+    toc_depth: 1
+  word_document:
+    toc: no
+    toc_depth: '1'
+urlcolor: blue
+---
+
+## Homework Problem 1: Frequency Analysis
+
+The data `smoking.txt` contains a 2-dimensional frequency table, where the employees of a firm have been categorized according to their position (5 categories: SM = Senior Managers, JM= Junior Managers, SE = Senior Employees, JE = Junior Employees, SC = Secretaries). Furthermore, the smoking of the employees have 4 categories (None, Light, Medium, Heavy).
+
+a) Form the theoretical frequencies under independence.
+
+b) Calculate the attraction repulsion matrix.
+
+c) Is smoking more frequent among a specific group in this company? Hint: Think about the complements of the different categories.
+

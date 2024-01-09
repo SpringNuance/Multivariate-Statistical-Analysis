@@ -1,0 +1,25 @@
+---
+title: "Assignment 1"
+author: "Nguyen Xuan Binh"
+header-includes:
+   - \usepackage{amssymb}
+output:
+  pdf_document:
+    toc: no
+    toc_depth: 1
+  word_document:
+    toc: no
+    toc_depth: '1'
+urlcolor: blue
+---
+
+## Homework Problem 1: Linear Discriminant Analysis
+
+Perform the Fisher's linear discriminant analysis to the data set alcohol.txt. Suppose that we have a new drink with the following measurements: MEOH = 500, ACET = 400, BU1 = 3, MEPR = 30, ACAL = 20 and LNPRO1 = 10. Answer the following questions and provide the requested figure for part b).
+
+a) Give the vector $a$, such that $\|a\|_2 = 1$.
+
+b) Visualize the original data using a pairwise scatterplot. Add the new drink to the plot. Furthermore, use different colors for KIRSCH, MIRAB, POIRE and the new drink.
+
+c) In which group will the new drink be classified to?
+

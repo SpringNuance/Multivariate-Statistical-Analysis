@@ -1,0 +1,19 @@
+---
+title: "Assignment 1"
+author: "Nguyen Xuan Binh"
+header-includes:
+   - \usepackage{amssymb}
+output:
+  pdf_document:
+    toc: no
+    toc_depth: 1
+  word_document:
+    toc: no
+    toc_depth: '1'
+urlcolor: blue
+---
+
+# Homework Problem 1: Functions
+
+In this exercise do not use the built-in functions cov, cor, cov2cor or any additional
+R packages.\

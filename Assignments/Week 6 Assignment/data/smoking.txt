@@ -1,0 +1,7 @@
+Staff	None	Light	Medium	Heavy	Total
+SM	4	2	3	2	11
+JM	4	3	7	4	18
+SE	25	10	12	4	51
+JE	18	24	33	13	88
+SC	10	6	7	2	25
+Total	61	45	62	25	193

@@ -1,0 +1,347 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+\PassOptionsToPackage{dvipsnames,svgnames,x11names}{xcolor}
+%
+\documentclass[
+]{article}
+\title{Assignment 1}
+\author{Nguyen Xuan Binh}
+\date{}
+
+\usepackage{amsmath,amssymb}
+\usepackage{lmodern}
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math}
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{xcolor}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
+\hypersetup{
+  pdftitle={Assignment 1},
+  pdfauthor={Nguyen Xuan Binh},
+  colorlinks=true,
+  linkcolor={Maroon},
+  filecolor={Maroon},
+  citecolor={Blue},
+  urlcolor={blue},
+  pdfcreator={LaTeX via pandoc}}
+\urlstyle{same} % disable monospaced font for URLs
+\usepackage[margin=1in]{geometry}
+\usepackage{color}
+\usepackage{fancyvrb}
+\newcommand{\VerbBar}{|}
+\newcommand{\VERB}{\Verb[commandchars=\\\{\}]}
+\DefineVerbatimEnvironment{Highlighting}{Verbatim}{commandchars=\\\{\}}
+% Add ',fontsize=\small' for more characters per line
+\usepackage{framed}
+\definecolor{shadecolor}{RGB}{248,248,248}
+\newenvironment{Shaded}{\begin{snugshade}}{\end{snugshade}}
+\newcommand{\AlertTok}[1]{\textcolor[rgb]{0.94,0.16,0.16}{#1}}
+\newcommand{\AnnotationTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
+\newcommand{\AttributeTok}[1]{\textcolor[rgb]{0.77,0.63,0.00}{#1}}
+\newcommand{\BaseNTok}[1]{\textcolor[rgb]{0.00,0.00,0.81}{#1}}
+\newcommand{\BuiltInTok}[1]{#1}
+\newcommand{\CharTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
+\newcommand{\CommentTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textit{#1}}}
+\newcommand{\CommentVarTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
+\newcommand{\ConstantTok}[1]{\textcolor[rgb]{0.00,0.00,0.00}{#1}}
+\newcommand{\ControlFlowTok}[1]{\textcolor[rgb]{0.13,0.29,0.53}{\textbf{#1}}}
+\newcommand{\DataTypeTok}[1]{\textcolor[rgb]{0.13,0.29,0.53}{#1}}
+\newcommand{\DecValTok}[1]{\textcolor[rgb]{0.00,0.00,0.81}{#1}}
+\newcommand{\DocumentationTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
+\newcommand{\ErrorTok}[1]{\textcolor[rgb]{0.64,0.00,0.00}{\textbf{#1}}}
+\newcommand{\ExtensionTok}[1]{#1}
+\newcommand{\FloatTok}[1]{\textcolor[rgb]{0.00,0.00,0.81}{#1}}
+\newcommand{\FunctionTok}[1]{\textcolor[rgb]{0.00,0.00,0.00}{#1}}
+\newcommand{\ImportTok}[1]{#1}
+\newcommand{\InformationTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
+\newcommand{\KeywordTok}[1]{\textcolor[rgb]{0.13,0.29,0.53}{\textbf{#1}}}
+\newcommand{\NormalTok}[1]{#1}
+\newcommand{\OperatorTok}[1]{\textcolor[rgb]{0.81,0.36,0.00}{\textbf{#1}}}
+\newcommand{\OtherTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{#1}}
+\newcommand{\PreprocessorTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textit{#1}}}
+\newcommand{\RegionMarkerTok}[1]{#1}
+\newcommand{\SpecialCharTok}[1]{\textcolor[rgb]{0.00,0.00,0.00}{#1}}
+\newcommand{\SpecialStringTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
+\newcommand{\StringTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
+\newcommand{\VariableTok}[1]{\textcolor[rgb]{0.00,0.00,0.00}{#1}}
+\newcommand{\VerbatimStringTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
+\newcommand{\WarningTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
+\usepackage{graphicx}
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
+\makeatother
+% Scale images if necessary, so that they will not overflow the page
+% margins by default, and it is still possible to overwrite the defaults
+% using explicit options in \includegraphics[width, height, ...]{}
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+% Set default figure placement to htbp
+\makeatletter
+\def\fps@figure{htbp}
+\makeatother
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{-\maxdimen} % remove section numbering
+\usepackage{amssymb}
+\ifLuaTeX
+  \usepackage{selnolig}  % disable illegal ligatures
+\fi
+
+\begin{document}
+\maketitle
+
+\hypertarget{homework-problem-1-functions}{%
+\section{Homework Problem 1:
+Functions}\label{homework-problem-1-functions}}
+
+In this exercise do not use the built-in functions cov, cor, cov2cor or
+any additional R packages.\\
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\FunctionTok{setwd}\NormalTok{(}\FunctionTok{getwd}\NormalTok{())}
+\end{Highlighting}
+\end{Shaded}
+
+\hypertarget{a}{%
+\subsection{a)}\label{a}}
+
+Create an R function that takes a data matrix
+\(\textbf{X} \in R^{n\times p}, n > p\), as an argument and returns the
+unbiased estimator of the covariance matrix.
+
+Model reference
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{A }\OtherTok{\textless{}{-}} \FunctionTok{matrix}\NormalTok{(}\FunctionTok{rnorm}\NormalTok{(}\DecValTok{30}\NormalTok{), }\AttributeTok{ncol =} \DecValTok{3}\NormalTok{)}
+
+\FunctionTok{print}\NormalTok{(}\FunctionTok{cov}\NormalTok{(A))}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+##           [,1]      [,2]      [,3]
+## [1,] 0.7120699 0.2395866 0.4013327
+## [2,] 0.2395866 0.8111211 0.2044847
+## [3,] 0.4013327 0.2044847 1.0328734
+\end{verbatim}
+
+The function for unbiased covariance without using the R library
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{unbiased\_cov }\OtherTok{\textless{}{-}} \ControlFlowTok{function}\NormalTok{(matrix)\{}
+\NormalTok{  average }\OtherTok{\textless{}{-}} \FunctionTok{apply}\NormalTok{(matrix, }\DecValTok{2}\NormalTok{, mean)}
+\NormalTok{  centered }\OtherTok{\textless{}{-}}  \FunctionTok{sweep}\NormalTok{(matrix, }\DecValTok{2}\NormalTok{, average, }\StringTok{"{-}"}\NormalTok{)}
+\NormalTok{  unbiased\_covariance }\OtherTok{\textless{}{-}} \FunctionTok{t}\NormalTok{(centered) }\SpecialCharTok{\%*\%}\NormalTok{ (centered) }\SpecialCharTok{/}\NormalTok{ (}\FunctionTok{nrow}\NormalTok{(matrix) }\SpecialCharTok{{-}} \DecValTok{1}\NormalTok{)}
+  \FunctionTok{return}\NormalTok{(unbiased\_covariance)}
+\NormalTok{\}}
+
+\FunctionTok{print}\NormalTok{(}\FunctionTok{unbiased\_cov}\NormalTok{(A))}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+##           [,1]      [,2]      [,3]
+## [1,] 0.7120699 0.2395866 0.4013327
+## [2,] 0.2395866 0.8111211 0.2044847
+## [3,] 0.4013327 0.2044847 1.0328734
+\end{verbatim}
+
+\hypertarget{b}{%
+\subsection{b)}\label{b}}
+
+Create an R function that takes a full-rank covariance matrix
+\(\textbf{A} \in R^{p\times p}\) as an argument and returns the square
+root of the inverse matrix such that
+\(\textbf{A} ^ {\frac{-1}{2}} \textbf{A} ^{\frac{-1}{2}} = \textbf{A} ^ {}\)
+
+A full-rank covariance matrix is a square matrix that has linearly
+independent columns and rows, which means it has the maximum possible
+rank (number of non-zero eigenvalues) which is equal to the number of
+rows (or columns) of the matrix. In other words, it is a matrix that has
+no zero eigenvalues, which indicates that all its columns are linearly
+independent, thus all its rows are also linearly independent.
+Additionally, it is a covariance matrix, which means it is symmetric.
+
+Model reference
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\CommentTok{\# First install and load expm package}
+\CommentTok{\# install.packages("expm")}
+\FunctionTok{library}\NormalTok{(expm)}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+## Loading required package: Matrix
+\end{verbatim}
+
+\begin{verbatim}
+## 
+## Attaching package: 'expm'
+\end{verbatim}
+
+\begin{verbatim}
+## The following object is masked from 'package:Matrix':
+## 
+##     expm
+\end{verbatim}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\CommentTok{\# full{-}rank covariance matrix}
+\NormalTok{A }\OtherTok{\textless{}{-}} \FunctionTok{matrix}\NormalTok{(}\FunctionTok{c}\NormalTok{(}\FloatTok{0.99}\NormalTok{,}\SpecialCharTok{{-}}\FloatTok{0.17}\NormalTok{,}\FloatTok{0.30}\NormalTok{,}\SpecialCharTok{{-}}\FloatTok{0.17}\NormalTok{,}\FloatTok{0.61}\NormalTok{,}\FloatTok{0.33}\NormalTok{,}\FloatTok{0.30}\NormalTok{,}\FloatTok{0.33}\NormalTok{,}\FloatTok{1.33}\NormalTok{), }\AttributeTok{nrow =} \DecValTok{3}\NormalTok{, }\AttributeTok{ncol =} \DecValTok{3}\NormalTok{)}
+
+\CommentTok{\# Find the inverse of the matrix}
+\NormalTok{inverse\_A }\OtherTok{\textless{}{-}} \FunctionTok{solve}\NormalTok{(A)}
+
+\CommentTok{\# Find the square root of the inverse of the matrix}
+\NormalTok{sqrt\_inverse\_A }\OtherTok{\textless{}{-}} \FunctionTok{sqrtm}\NormalTok{(inverse\_A)}
+
+\NormalTok{sqrt\_inverse\_A}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+##            [,1]       [,2]       [,3]
+## [1,]  1.0768396  0.2092707 -0.1800484
+## [2,]  0.2092707  1.4301472 -0.2629218
+## [3,] -0.1800484 -0.2629218  0.9539935
+\end{verbatim}
+
+The square root of a matrix can be found by using the eigenvalue
+decomposition of the matrix. The eigenvalue decomposition is a way of
+decomposing a matrix into a canonical form, where the matrix is
+represented as a product of a matrix of eigenvectors and a diagonal
+matrix of eigenvalues.\\
+
+The function for the square root of the inverse of a matrix without
+using the R library\\
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\CommentTok{\# Find the square root of the inverse of the full{-}rank covariance matrix}
+\NormalTok{sqrt\_inverse }\OtherTok{\textless{}{-}} \ControlFlowTok{function}\NormalTok{(matrix)\{}
+  
+\NormalTok{  inverse\_matrix }\OtherTok{\textless{}{-}} \FunctionTok{solve}\NormalTok{(matrix)}
+  
+  \CommentTok{\# Find the eigenvalues and eigenvectors of the matrix}
+\NormalTok{  result }\OtherTok{\textless{}{-}} \FunctionTok{eigen}\NormalTok{(inverse\_matrix)}
+\NormalTok{  eigenvalues }\OtherTok{\textless{}{-}}\NormalTok{ result}\SpecialCharTok{$}\NormalTok{values}
+\NormalTok{  eigenvectors }\OtherTok{\textless{}{-}}\NormalTok{ result}\SpecialCharTok{$}\NormalTok{vectors}
+  
+  \CommentTok{\# Obtain the square roots ò the eigenvalues}
+\NormalTok{  sqrt\_eigenvalues }\OtherTok{\textless{}{-}} \FunctionTok{sqrt}\NormalTok{(eigenvalues)}
+  
+  \CommentTok{\# Form a diagonal matrix with the square root of eigenvalues}
+\NormalTok{  sqrt\_eigenvalues\_matrix }\OtherTok{\textless{}{-}} \FunctionTok{diag}\NormalTok{(sqrt\_eigenvalues)}
+  
+  \CommentTok{\# Multiply the matrix of eigenvectors with the diagonal matrix of }
+  \CommentTok{\# the square roots of the eigenvalues}
+\NormalTok{  sqrt\_inverse\_matrix }\OtherTok{\textless{}{-}}\NormalTok{ eigenvectors }\SpecialCharTok{\%*\%}\NormalTok{ sqrt\_eigenvalues\_matrix }\SpecialCharTok{\%*\%} \FunctionTok{t}\NormalTok{(eigenvectors)}
+  
+  \FunctionTok{return}\NormalTok{(sqrt\_inverse\_matrix)}
+\NormalTok{\}}
+
+\FunctionTok{print}\NormalTok{(}\FunctionTok{sqrt\_inverse}\NormalTok{(A))}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+##            [,1]       [,2]       [,3]
+## [1,]  1.0768396  0.2092707 -0.1800484
+## [2,]  0.2092707  1.4301472 -0.2629218
+## [3,] -0.1800484 -0.2629218  0.9539935
+\end{verbatim}
+
+This method will only work if the matrix is symmetric and its
+eigenvalues are real numbers, because the square root of real matrix is
+only defined for normal matrices. Thankfully, symmetry is guaranteed as
+it is a covariance matrix, and its eigenvalues are real numbers because
+it is a full-rank matrix.\\
+
+\hypertarget{c}{%
+\subsection{c)}\label{c}}
+
+Create an R function that takes a full-rank covariance matrix
+\(\textbf{A}\) as an argument and returns the corresponding correlation
+matrix\\
+
+Model reference\\
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{correlation\_matrix }\OtherTok{\textless{}{-}} \FunctionTok{cov2cor}\NormalTok{(A)}
+
+\FunctionTok{print}\NormalTok{(correlation\_matrix)}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+##            [,1]       [,2]      [,3]
+## [1,]  1.0000000 -0.2187592 0.2614435
+## [2,] -0.2187592  1.0000000 0.3663728
+## [3,]  0.2614435  0.3663728 1.0000000
+\end{verbatim}
+
+The function for correlation conversion from full-rank covariance matrix
+without using the R library
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\CommentTok{\# Find the correlation matrix from the full{-}rank covariance matrix}
+\NormalTok{correlation }\OtherTok{\textless{}{-}} \ControlFlowTok{function}\NormalTok{(cov\_matrix)\{}
+  
+  \CommentTok{\# Compute the standard deviations of the variables}
+\NormalTok{  sqrt\_diag }\OtherTok{\textless{}{-}} \FunctionTok{diag}\NormalTok{(}\DecValTok{1}\SpecialCharTok{/}\FunctionTok{sqrt}\NormalTok{(}\FunctionTok{diag}\NormalTok{(cov\_matrix)))}
+  
+  \CommentTok{\# Divide the covariance matrix by the outer product of the standard deviations}
+\NormalTok{  cor\_matrix }\OtherTok{\textless{}{-}}\NormalTok{ sqrt\_diag }\SpecialCharTok{\%*\%}\NormalTok{ cov\_matrix }\SpecialCharTok{\%*\%}\NormalTok{ sqrt\_diag}
+
+  \FunctionTok{return}\NormalTok{(cor\_matrix)}
+\NormalTok{\}}
+
+\FunctionTok{print}\NormalTok{(}\FunctionTok{correlation}\NormalTok{(A))}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+##            [,1]       [,2]      [,3]
+## [1,]  1.0000000 -0.2187592 0.2614435
+## [2,] -0.2187592  1.0000000 0.3663728
+## [3,]  0.2614435  0.3663728 1.0000000
+\end{verbatim}
+
+Read explanation from here:
+\url{https://math.stackexchange.com/questions/186959/correlation-matrix-from-covariance-matrix}
+
+\end{document}

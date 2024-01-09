@@ -1,0 +1,23 @@
+---
+title: "Assignment 1"
+author: "Nguyen Xuan Binh"
+header-includes:
+   - \usepackage{amssymb}
+output:
+  pdf_document:
+    toc: no
+    toc_depth: 1
+  word_document:
+    toc: no
+    toc_depth: '1'
+urlcolor: blue
+---
+
+## Homework Problem 1: Hierarchical Clustering
+
+Repeat steps (a)-(b) and (d)-(g) of Problem 1 for the iris data set. The data set can be accessed from the package MASS via the command: `data(iris)`. Leave out the variable species. Remember to provide figures related to (a), (e) and (f). In addition, answer the following:
+
+h) Does the seed number affect the results in hierarchical clustering? Justify.
+
+i) Which aggregation metric (single, complete, average) results in the best separation of the different species? Justify your answer using the dendrogram.
+

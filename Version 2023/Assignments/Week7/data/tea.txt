@@ -1,0 +1,301 @@
+Tea	How	how	sugar	where	always
+black	alone	tea bag	sugar	chain store	Not.always
+black	milk	tea bag	No.sugar	chain store	Not.always
+Earl Grey	alone	tea bag	No.sugar	chain store	Not.always
+Earl Grey	alone	tea bag	sugar	chain store	Not.always
+Earl Grey	alone	tea bag	No.sugar	chain store	always
+Earl Grey	alone	tea bag	No.sugar	chain store	Not.always
+Earl Grey	alone	tea bag	No.sugar	chain store	Not.always
+black	milk	tea bag	No.sugar	chain store	Not.always
+Earl Grey	milk	tea bag+unpackaged	No.sugar	chain store+tea shop	Not.always
+black	alone	tea bag+unpackaged	No.sugar	chain store+tea shop	Not.always
+Earl Grey	alone	tea bag	No.sugar	chain store	Not.always
+Earl Grey	alone	tea bag	sugar	chain store	Not.always
+Earl Grey	milk	tea bag+unpackaged	No.sugar	chain store+tea shop	Not.always
+black	milk	tea bag	sugar	chain store	Not.always
+black	milk	tea bag	No.sugar	chain store+tea shop	Not.always
+Earl Grey	alone	unpackaged	sugar	chain store+tea shop	Not.always
+black	alone	tea bag+unpackaged	No.sugar	chain store+tea shop	Not.always
+Earl Grey	alone	tea bag	No.sugar	chain store+tea shop	Not.always
+black	alone	tea bag	No.sugar	chain store	Not.always
+black	alone	tea bag	No.sugar	chain store	Not.always
+Earl Grey	lemon	tea bag	No.sugar	chain store+tea shop	Not.always
+black	other	tea bag+unpackaged	No.sugar	chain store+tea shop	Not.always
+Earl Grey	alone	tea bag	No.sugar	chain store	Not.always
+black	alone	tea bag	No.sugar	chain store	Not.always
+Earl Grey	alone	unpackaged	No.sugar	chain store+tea shop	always
+Earl Grey	milk	tea bag	No.sugar	chain store+tea shop	always
+Earl Grey	alone	tea bag	sugar	chain store	Not.always
+Earl Grey	alone	tea bag+unpackaged	No.sugar	chain store	Not.always
+black	alone	tea bag	No.sugar	chain store	Not.always
+Earl Grey	alone	tea bag	sugar	chain store	Not.always
+Earl Grey	alone	unpackaged	No.sugar	tea shop	always
+Earl Grey	lemon	tea bag+unpackaged	sugar	chain store+tea shop	Not.always
+Earl Grey	alone	tea bag+unpackaged	sugar	chain store+tea shop	Not.always
+black	alone	tea bag	No.sugar	chain store	Not.always
+black	lemon	tea bag+unpackaged	No.sugar	chain store+tea shop	always
+Earl Grey	milk	tea bag	sugar	chain store	Not.always
+green	alone	tea bag+unpackaged	No.sugar	chain store	Not.always
+green	alone	tea bag	No.sugar	chain store	Not.always
+Earl Grey	milk	tea bag	No.sugar	chain store+tea shop	always
+green	alone	tea bag+unpackaged	No.sugar	chain store+tea shop	Not.always
+Earl Grey	alone	tea bag	sugar	chain store	Not.always
+green	alone	tea bag	No.sugar	chain store	Not.always
+Earl Grey	milk	tea bag	No.sugar	chain store	Not.always
+black	other	tea bag	No.sugar	chain store+tea shop	Not.always
+Earl Grey	alone	tea bag	No.sugar	chain store	Not.always
+Earl Grey	milk	tea bag	sugar	chain store	always
+Earl Grey	alone	tea bag	sugar	chain store	Not.always
+Earl Grey	alone	tea bag+unpackaged	No.sugar	chain store+tea shop	always
+Earl Grey	alone	tea bag+unpackaged	No.sugar	chain store	Not.always
+black	alone	tea bag+unpackaged	No.sugar	chain store+tea shop	Not.always
+Earl Grey	alone	tea bag+unpackaged	sugar	chain store+tea shop	Not.always
+black	alone	tea bag+unpackaged	sugar	chain store	always
+Earl Grey	alone	unpackaged	No.sugar	tea shop	Not.always
+Earl Grey	alone	tea bag	sugar	chain store	Not.always
+green	milk	tea bag	sugar	chain store	always
+Earl Grey	alone	tea bag+unpackaged	No.sugar	chain store	always
+green	alone	tea bag	No.sugar	chain store	Not.always
+Earl Grey	milk	tea bag+unpackaged	sugar	chain store+tea shop	Not.always
+green	lemon	tea bag+unpackaged	sugar	chain store+tea shop	Not.always
+black	alone	tea bag+unpackaged	No.sugar	chain store	Not.always
+Earl Grey	alone	tea bag+unpackaged	No.sugar	chain store+tea shop	Not.always
+Earl Grey	alone	unpackaged	No.sugar	tea shop	always
+Earl Grey	alone	tea bag	No.sugar	chain store	Not.always
+black	alone	tea bag	No.sugar	chain store+tea shop	always
+Earl Grey	alone	tea bag+unpackaged	sugar	chain store	Not.always
+black	other	tea bag+unpackaged	No.sugar	chain store+tea shop	Not.always
+Earl Grey	alone	tea bag+unpackaged	No.sugar	chain store+tea shop	always
+Earl Grey	lemon	tea bag+unpackaged	sugar	chain store+tea shop	Not.always
+Earl Grey	lemon	tea bag	No.sugar	chain store	Not.always
+Earl Grey	alone	tea bag	sugar	chain store	Not.always
+Earl Grey	alone	tea bag	sugar	chain store	Not.always
+Earl Grey	milk	tea bag+unpackaged	sugar	chain store+tea shop	always
+Earl Grey	milk	tea bag	sugar	chain store	always
+Earl Grey	lemon	unpackaged	sugar	tea shop	Not.always
+black	milk	tea bag	sugar	chain store	always
+Earl Grey	milk	tea bag	sugar	chain store	Not.always
+Earl Grey	alone	tea bag	No.sugar	chain store	Not.always
+Earl Grey	milk	tea bag+unpackaged	No.sugar	chain store	Not.always
+Earl Grey	alone	tea bag	sugar	tea shop	Not.always
+Earl Grey	alone	tea bag+unpackaged	No.sugar	chain store	Not.always
+black	alone	tea bag	No.sugar	chain store	always
+Earl Grey	alone	unpackaged	sugar	chain store	Not.always
+Earl Grey	milk	tea bag	sugar	chain store+tea shop	always
+Earl Grey	alone	tea bag	No.sugar	chain store	Not.always
+Earl Grey	lemon	tea bag	sugar	chain store	Not.always
+Earl Grey	milk	tea bag	sugar	chain store	always
+Earl Grey	alone	tea bag+unpackaged	sugar	chain store+tea shop	always
+Earl Grey	milk	tea bag	sugar	chain store	always
+Earl Grey	milk	tea bag	No.sugar	chain store+tea shop	always
+Earl Grey	alone	tea bag+unpackaged	sugar	chain store	always
+black	milk	tea bag+unpackaged	sugar	chain store	Not.always
+Earl Grey	alone	tea bag+unpackaged	sugar	chain store	Not.always
+black	milk	tea bag	No.sugar	chain store	always
+Earl Grey	alone	unpackaged	No.sugar	chain store	Not.always
+Earl Grey	alone	unpackaged	sugar	tea shop	always
+black	milk	tea bag+unpackaged	sugar	chain store	Not.always
+Earl Grey	milk	tea bag	sugar	chain store	Not.always
+Earl Grey	alone	tea bag	No.sugar	chain store	Not.always
+black	milk	tea bag+unpackaged	sugar	chain store+tea shop	Not.always
+Earl Grey	alone	unpackaged	No.sugar	tea shop	Not.always
+Earl Grey	alone	tea bag	sugar	chain store	Not.always
+green	alone	tea bag+unpackaged	sugar	chain store	Not.always
+Earl Grey	milk	tea bag+unpackaged	sugar	chain store+tea shop	always
+Earl Grey	milk	tea bag	sugar	chain store	always
+Earl Grey	alone	tea bag	sugar	chain store	always
+Earl Grey	alone	tea bag	sugar	chain store	Not.always
+Earl Grey	alone	tea bag	sugar	chain store	Not.always
+Earl Grey	alone	tea bag+unpackaged	sugar	chain store	always
+Earl Grey	alone	tea bag	No.sugar	chain store+tea shop	Not.always
+Earl Grey	alone	tea bag+unpackaged	No.sugar	tea shop	always
+Earl Grey	lemon	tea bag	No.sugar	chain store	Not.always
+Earl Grey	alone	tea bag+unpackaged	No.sugar	chain store+tea shop	always
+Earl Grey	alone	tea bag	sugar	chain store+tea shop	Not.always
+Earl Grey	alone	tea bag	sugar	chain store	Not.always
+Earl Grey	alone	tea bag	sugar	chain store	Not.always
+Earl Grey	alone	tea bag	No.sugar	chain store	Not.always
+Earl Grey	lemon	tea bag	sugar	chain store	Not.always
+Earl Grey	alone	tea bag	sugar	chain store	Not.always
+Earl Grey	alone	tea bag+unpackaged	No.sugar	chain store	always
+Earl Grey	alone	tea bag	No.sugar	chain store+tea shop	Not.always
+Earl Grey	alone	tea bag	No.sugar	chain store	Not.always
+Earl Grey	lemon	tea bag+unpackaged	sugar	chain store+tea shop	always
+Earl Grey	alone	tea bag	sugar	chain store	always
+Earl Grey	alone	tea bag	sugar	chain store	always
+Earl Grey	milk	tea bag	sugar	chain store	Not.always
+Earl Grey	alone	tea bag	sugar	chain store	Not.always
+black	other	tea bag+unpackaged	No.sugar	chain store+tea shop	Not.always
+black	alone	tea bag+unpackaged	No.sugar	chain store	Not.always
+Earl Grey	alone	tea bag	No.sugar	chain store	Not.always
+Earl Grey	milk	tea bag	No.sugar	chain store	always
+Earl Grey	alone	tea bag	No.sugar	chain store	always
+black	alone	tea bag	No.sugar	chain store	always
+Earl Grey	lemon	tea bag+unpackaged	sugar	chain store+tea shop	always
+black	lemon	tea bag	sugar	chain store	always
+black	other	tea bag	No.sugar	chain store	always
+Earl Grey	lemon	tea bag	sugar	chain store+tea shop	Not.always
+Earl Grey	lemon	tea bag	sugar	chain store	Not.always
+Earl Grey	alone	tea bag	No.sugar	chain store	always
+Earl Grey	alone	tea bag	No.sugar	chain store	always
+Earl Grey	alone	tea bag	No.sugar	chain store	always
+Earl Grey	milk	tea bag	sugar	chain store	Not.always
+Earl Grey	alone	tea bag	sugar	chain store	always
+Earl Grey	alone	tea bag	sugar	chain store	always
+Earl Grey	alone	tea bag	No.sugar	chain store	always
+Earl Grey	milk	tea bag	sugar	chain store	Not.always
+Earl Grey	alone	tea bag	sugar	chain store	always
+Earl Grey	alone	tea bag	No.sugar	chain store	always
+black	other	tea bag	sugar	chain store+tea shop	always
+Earl Grey	lemon	tea bag	sugar	tea shop	Not.always
+Earl Grey	alone	tea bag	sugar	chain store	always
+black	alone	tea bag+unpackaged	No.sugar	chain store	Not.always
+Earl Grey	alone	tea bag	No.sugar	chain store	Not.always
+black	alone	unpackaged	No.sugar	chain store	Not.always
+green	alone	tea bag	No.sugar	chain store	Not.always
+Earl Grey	alone	tea bag	sugar	chain store	always
+black	milk	tea bag	No.sugar	chain store	Not.always
+Earl Grey	alone	tea bag	sugar	chain store	always
+Earl Grey	alone	tea bag	sugar	chain store	always
+black	milk	unpackaged	No.sugar	chain store+tea shop	Not.always
+black	alone	tea bag	No.sugar	chain store+tea shop	Not.always
+black	alone	unpackaged	sugar	chain store	Not.always
+black	alone	tea bag	No.sugar	chain store	Not.always
+green	alone	tea bag+unpackaged	No.sugar	chain store	Not.always
+black	alone	tea bag+unpackaged	No.sugar	chain store	Not.always
+green	alone	unpackaged	No.sugar	chain store	always
+Earl Grey	alone	tea bag	No.sugar	chain store	Not.always
+green	alone	tea bag	No.sugar	chain store	Not.always
+black	lemon	unpackaged	No.sugar	tea shop	always
+Earl Grey	alone	tea bag	sugar	chain store	Not.always
+Earl Grey	alone	tea bag	sugar	chain store	Not.always
+Earl Grey	alone	unpackaged	sugar	chain store+tea shop	always
+Earl Grey	alone	tea bag+unpackaged	No.sugar	chain store+tea shop	always
+black	alone	tea bag+unpackaged	No.sugar	chain store	Not.always
+Earl Grey	alone	tea bag	sugar	chain store	Not.always
+Earl Grey	alone	tea bag	sugar	chain store	always
+Earl Grey	alone	tea bag	sugar	chain store	always
+Earl Grey	alone	tea bag	sugar	chain store	Not.always
+Earl Grey	alone	tea bag+unpackaged	No.sugar	chain store	always
+Earl Grey	lemon	tea bag	sugar	chain store	Not.always
+green	alone	tea bag+unpackaged	sugar	chain store	always
+black	milk	tea bag	sugar	chain store	Not.always
+black	alone	unpackaged	No.sugar	tea shop	Not.always
+black	alone	tea bag	No.sugar	chain store	Not.always
+Earl Grey	milk	tea bag	sugar	chain store	Not.always
+Earl Grey	alone	tea bag+unpackaged	sugar	chain store	always
+green	alone	tea bag	No.sugar	chain store	always
+green	alone	tea bag	sugar	chain store	Not.always
+green	alone	tea bag	sugar	chain store	Not.always
+green	alone	tea bag+unpackaged	sugar	chain store	always
+green	lemon	unpackaged	sugar	tea shop	always
+Earl Grey	alone	tea bag+unpackaged	sugar	tea shop	Not.always
+Earl Grey	alone	tea bag+unpackaged	sugar	chain store	Not.always
+Earl Grey	alone	tea bag	sugar	chain store	always
+Earl Grey	alone	tea bag+unpackaged	sugar	chain store	Not.always
+green	alone	unpackaged	No.sugar	tea shop	Not.always
+black	alone	unpackaged	No.sugar	chain store	always
+Earl Grey	lemon	tea bag	sugar	chain store	always
+Earl Grey	alone	tea bag	No.sugar	chain store+tea shop	Not.always
+green	alone	tea bag	No.sugar	tea shop	Not.always
+green	alone	tea bag	sugar	chain store	Not.always
+Earl Grey	lemon	tea bag+unpackaged	sugar	chain store+tea shop	Not.always
+black	alone	unpackaged	No.sugar	tea shop	Not.always
+Earl Grey	alone	tea bag+unpackaged	sugar	chain store+tea shop	Not.always
+Earl Grey	other	tea bag	sugar	chain store	Not.always
+green	alone	tea bag	No.sugar	chain store	Not.always
+black	milk	unpackaged	No.sugar	chain store	Not.always
+black	lemon	tea bag+unpackaged	No.sugar	chain store+tea shop	Not.always
+black	lemon	unpackaged	sugar	tea shop	always
+green	alone	unpackaged	sugar	chain store	Not.always
+Earl Grey	alone	tea bag	sugar	chain store	Not.always
+black	alone	unpackaged	sugar	tea shop	Not.always
+green	milk	tea bag	No.sugar	tea shop	always
+black	alone	tea bag	No.sugar	chain store	Not.always
+Earl Grey	alone	tea bag	sugar	chain store+tea shop	Not.always
+Earl Grey	lemon	tea bag	No.sugar	chain store	Not.always
+black	milk	tea bag	sugar	chain store	always
+black	alone	tea bag+unpackaged	No.sugar	chain store	Not.always
+Earl Grey	alone	tea bag	No.sugar	chain store	always
+Earl Grey	milk	tea bag	sugar	chain store	Not.always
+Earl Grey	lemon	unpackaged	No.sugar	tea shop	Not.always
+Earl Grey	lemon	tea bag+unpackaged	No.sugar	chain store	always
+green	alone	tea bag+unpackaged	No.sugar	tea shop	Not.always
+Earl Grey	alone	tea bag	sugar	chain store	Not.always
+Earl Grey	lemon	tea bag+unpackaged	No.sugar	chain store+tea shop	always
+black	milk	tea bag+unpackaged	No.sugar	chain store+tea shop	Not.always
+green	alone	tea bag	No.sugar	chain store	always
+green	alone	tea bag+unpackaged	No.sugar	tea shop	Not.always
+black	alone	tea bag	sugar	chain store	Not.always
+green	alone	unpackaged	No.sugar	tea shop	always
+Earl Grey	milk	tea bag	No.sugar	chain store	Not.always
+black	alone	tea bag+unpackaged	No.sugar	chain store	Not.always
+Earl Grey	alone	tea bag	No.sugar	chain store	Not.always
+Earl Grey	alone	tea bag+unpackaged	No.sugar	chain store+tea shop	Not.always
+Earl Grey	milk	tea bag+unpackaged	No.sugar	chain store+tea shop	Not.always
+Earl Grey	alone	tea bag+unpackaged	No.sugar	chain store	always
+Earl Grey	alone	tea bag	No.sugar	chain store	Not.always
+Earl Grey	milk	tea bag	sugar	chain store	Not.always
+Earl Grey	alone	unpackaged	sugar	chain store+tea shop	Not.always
+Earl Grey	lemon	tea bag	No.sugar	chain store+tea shop	Not.always
+Earl Grey	milk	tea bag+unpackaged	No.sugar	chain store+tea shop	always
+Earl Grey	alone	tea bag+unpackaged	sugar	chain store+tea shop	Not.always
+Earl Grey	milk	tea bag+unpackaged	No.sugar	chain store	Not.always
+green	milk	tea bag+unpackaged	sugar	chain store+tea shop	Not.always
+Earl Grey	lemon	tea bag+unpackaged	No.sugar	chain store+tea shop	Not.always
+Earl Grey	alone	tea bag	sugar	chain store	Not.always
+Earl Grey	milk	tea bag+unpackaged	No.sugar	chain store+tea shop	Not.always
+black	alone	tea bag	No.sugar	chain store	always
+Earl Grey	milk	unpackaged	sugar	tea shop	always
+Earl Grey	alone	tea bag+unpackaged	sugar	tea shop	Not.always
+Earl Grey	alone	tea bag	No.sugar	chain store	Not.always
+Earl Grey	alone	tea bag+unpackaged	sugar	chain store+tea shop	always
+Earl Grey	lemon	tea bag+unpackaged	sugar	chain store+tea shop	Not.always
+Earl Grey	alone	tea bag+unpackaged	No.sugar	chain store+tea shop	always
+Earl Grey	alone	tea bag	No.sugar	chain store	Not.always
+Earl Grey	alone	unpackaged	No.sugar	chain store	Not.always
+black	milk	tea bag	No.sugar	chain store	Not.always
+black	alone	tea bag	sugar	chain store	Not.always
+green	milk	tea bag	sugar	chain store	Not.always
+Earl Grey	alone	tea bag+unpackaged	sugar	chain store+tea shop	always
+Earl Grey	alone	tea bag+unpackaged	sugar	chain store	Not.always
+black	alone	unpackaged	sugar	tea shop	Not.always
+green	alone	tea bag	sugar	chain store	Not.always
+black	milk	tea bag	No.sugar	chain store	Not.always
+Earl Grey	alone	tea bag+unpackaged	sugar	chain store+tea shop	always
+Earl Grey	alone	tea bag+unpackaged	No.sugar	chain store+tea shop	always
+Earl Grey	alone	tea bag+unpackaged	sugar	chain store	always
+black	milk	tea bag+unpackaged	No.sugar	chain store	always
+Earl Grey	alone	tea bag+unpackaged	sugar	chain store+tea shop	always
+black	alone	tea bag+unpackaged	sugar	chain store+tea shop	Not.always
+Earl Grey	milk	tea bag+unpackaged	No.sugar	chain store+tea shop	Not.always
+black	alone	unpackaged	sugar	chain store+tea shop	Not.always
+black	alone	unpackaged	No.sugar	tea shop	Not.always
+Earl Grey	other	tea bag+unpackaged	sugar	chain store+tea shop	always
+Earl Grey	other	tea bag	sugar	chain store	Not.always
+black	alone	tea bag	No.sugar	chain store	Not.always
+Earl Grey	alone	tea bag	sugar	chain store	Not.always
+black	alone	unpackaged	sugar	chain store+tea shop	Not.always
+black	alone	unpackaged	No.sugar	chain store+tea shop	Not.always
+black	alone	tea bag+unpackaged	No.sugar	chain store	always
+Earl Grey	alone	tea bag	No.sugar	chain store	always
+Earl Grey	alone	tea bag	No.sugar	chain store	always
+Earl Grey	alone	tea bag	sugar	chain store	always
+Earl Grey	alone	tea bag+unpackaged	No.sugar	chain store+tea shop	always
+black	lemon	tea bag	sugar	chain store	Not.always
+Earl Grey	alone	tea bag	sugar	chain store	Not.always
+Earl Grey	alone	tea bag	No.sugar	chain store	Not.always
+Earl Grey	milk	unpackaged	sugar	tea shop	always
+black	alone	tea bag	No.sugar	chain store	always
+Earl Grey	milk	tea bag	sugar	chain store+tea shop	Not.always
+Earl Grey	milk	tea bag	No.sugar	chain store	Not.always
+Earl Grey	alone	tea bag+unpackaged	No.sugar	chain store	always
+Earl Grey	lemon	tea bag	sugar	chain store	Not.always
+Earl Grey	milk	tea bag	sugar	chain store	Not.always
+Earl Grey	milk	tea bag	sugar	chain store	always
+Earl Grey	alone	tea bag+unpackaged	No.sugar	chain store+tea shop	Not.always
+green	milk	tea bag	No.sugar	chain store	Not.always
+green	milk	tea bag+unpackaged	No.sugar	tea shop	always
+Earl Grey	alone	tea bag	sugar	chain store	always
+black	lemon	tea bag	sugar	tea shop	always
+black	milk	tea bag	sugar	chain store	Not.always

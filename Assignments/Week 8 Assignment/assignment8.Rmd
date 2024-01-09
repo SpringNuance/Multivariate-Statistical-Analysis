@@ -1,0 +1,31 @@
+---
+title: "Assignment 1"
+author: "Nguyen Xuan Binh"
+header-includes:
+   - \usepackage{amssymb}
+output:
+  pdf_document:
+    toc: no
+    toc_depth: 1
+  word_document:
+    toc: no
+    toc_depth: '1'
+urlcolor: blue
+---
+
+## Homework Problem 1: Canonical Correlation Analysis
+
+Perform the canonical correlation analysis to the data decathlon.txt. Find the relationships between the groups
+
+Y = (R100, LONG_JUMP, SHOT_PUT, HIGH_JUMP, R400, H110, DISCUS_THROW, JAVELIN, POLE_VAULT, R1500M),
+X = (HEIGHT, WEIGHT).
+
+Repeat the steps (a) - (c) from Problem 1. In (a) give the correctly scaled canonical vectors and in (b) the sample canonical correlations explicitly, not just the code. In addition, provide an answer to the following.
+
+(e) How many pairs of canonical variables can we obtain?
+
+(f) What happens to the results if we instead choose the groups as
+
+X = (R100, LONG_JUMP, SHOT_PUT, HIGH_JUMP, R400, H110, DISCUS_THROW, JAVELIN, POLE_VAULT, R1500M),
+Y = (HEIGHT, WEIGHT)?
+
