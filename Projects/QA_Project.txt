@@ -1,0 +1,108 @@
+Dataset: https://figshare.com/articles/dataset/Materials_Project_Data/7227749
+
+
+=======================================================================
+
+Dear professor Pauliina of the course Multivariate Statistical Analysis
+
+I joined this course for a while, and due to personal reasons, I was busy and cannot join the exercise sessions. 
+
+Nonetheless, I am still interested in completing the project and finishing the final exam and happily get grade 4 or grade 3. 
+
+However, before I start the project work, I hope I can have a few clarifications from you.
+
+This is the description of the project work on MyCourse:
+
+Goals of the project work:
+-Description of the research questions: May I know what kind of possible research questions there could be? I hope to receive some inspirations from you, both “yes, no” and open questions. 
+Additionally, how many questions must I propose to solve? Only 1, or 2, or 3? 
+
+For example, I am also a Materials Science researcher, so I plan to choose a dataset of composite materials with different mechanical properties, like tensile strength, fracture strength, etc, all real values 
+What could be some nice research questions that I could propose? 
+
+Additionally, the report never mentions that it is a predictive task, so I assume, that there are no features and labels concept in this project work? There are just variables that we need to study to find the underlying 
+useful pattern or data, like an unsupervised task, or data mining? 
+-Univariate and bivariate statistical analysis to present the variables: Does this imply using only the methods taught in this class MSA, or do you expect that I 
+should use those methods taught in the class Statistical Inference?
+-Application of your chosen multivariate statistical methods to answer research questions (justification and
+output): If I must say, multivariate statistical methods are those methods applied to number of variables >= 3 that univariate and bivariate methods cannot? 
+
+I hope you could help me clarify these questions, and I look forward to hearing from your advice.
+
+Best regards, Binh
+
+=======================================================================
+
+Dear Binh,
+
+I am happy to hear that you plan to complete the course.
+
+I try to answer to your questions below:
+
+Examples of possible research questions for the project work include, e.g.,
+
+Is it possible to find clusters of European countries based on energy data? How are the clusters located geographically?
+
+Does PCA reveal something interesting about Finnish municipalities if PCA is applied to data that contains several variables related to economy of the municipalities? Can we conduct dimension reduction successfully and can we use principal components to detect "crises municipalities"?
+
+Are the misclassification rates acceptable if Fisher linear discriminant analysis is applied in classifying my exercise data into business days and weekends? Does it tell something about my exercise routines?
+
+In your settings, you could, e.g., try to cluster composite materials based on the variables you mentioned. Or you could use PCA to see if dimension reduction is possible without loosing too much information. 
+
+It is enough to have 1 research question.
+
+You can have labeled or unlabeled data. 
+
+For univariate analysis summary statistics (e.g. means, medians, variances, median absolute deviations, skewness and kurtosis values) and possible visualizations are enough (no need to conduct statistical testing or give confidence intervals here).
+
+For bivariate analysis visualizations (e.g. scatter plots) or pairwise Pearson or Spearman correlations, or attraction-repulsion indices are enough (no need for testing or confidence intervals here either).
+
+For multivariate part, one should have at least 3-variate data, and one should use PCA (traditional or robust), MCA, CCA, classification (FLDA or depth based) or clustering (k-centers or hierarchical). Choice of method should be justified, and results should be interpreted and discussed.  If one used a method that is not discussed during the course, one should add an appendix describing the method (mathematically and intuitively). 
+
+I hope that this helps!
+
+With best wishes, Pauliina
+
+=======================================================================
+
+I would also like to point out that we, the teaching assistants, cannot help that much with the interpretations of figures and multivariate analysis. 
+The purpose of the project is that you make the interpretations independently.
+
+Hello everybody,
+Here I gather answers to common questions that have come up about the project work. Remember also that you can always ask about the project during the exercise sessions.
+
+Question 1: Is there a template for the project work?
+
+Answer: No there is not. Additionally, you can use any software for writing the project work as long as the report is polished. Possible options include LaTeX, Word, and R Markdown.
+Question 2: What is required for the univariate analysis?
+
+Answer: For the univariate analysis summary statistics (e.g., means, medians, variances, median absolute deviations, skewness, and kurtosis) and possible visualizations are enough. There is no need for conducting statistical testing or giving confidence intervals (but of course you can if you wish).
+
+Question 3: What is required for the bivariate analysis?
+
+Answer: For the bivariate analysis visualizations (e.g., scatter plots) or pairwise Pearson or Spearman correlations, or attraction-repulsion indices are enough. There is no need for testing or confidence intervals here either.
+
+Question 4: What is required for the multivariate analysis?
+
+Answer: One should have at least 3-variate data, and one should use one of the methods from the course (traditional or robust PCA, MCA, CCA, classification (Fisher's linear discriminant analysis or depth based) or clustering (k-centers or hierarchical)). The choice of method should be justified, and results should be interpreted and discussed. If one used a method that was not discussed during the course, one should add an appendix describing the method (mathematically and intuitively).
+
+Question 5: Is one research question enough?
+
+Answer: Yes.
+
+Question 6: Should the code used for the analysis be included?
+
+Answer: It is not necessary, but you can if you wish.
+
+Question 7: Can I use other programming language other than R for performing the analysis?
+
+Answer: Yes you can, for example, Python.
+
+Question 8: Do I need to include references?
+
+Answer: Remember to include the reference for the data set that you use. There is no need for other references.
+
+Hopefully these help!
+
+With best wishes,
+Jaakko
