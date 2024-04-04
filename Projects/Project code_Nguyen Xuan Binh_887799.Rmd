@@ -1,0 +1,40 @@
+---
+title: "Multivariate Statistical Analysis Project Report"
+author: "Nguyen Xuan Binh - 887799"
+fontsize: 10pt
+header-includes:
+   - \usepackage{amssymb}
+output:
+  pdf_document:
+    toc: no
+    toc_depth: 1
+  word_document:
+    toc: no
+    toc_depth: '1'
+urlcolor: blue
+---
+
+
+# 1. INTRODUCTION (0.5 point)
+
+description of the research question and of the data source or data collection
+
+# 2. Univariate analysis (1 point)
+
+description of the variables, summary statistics, visualization
+
+# 3. Bivariate analysis (1 point)
+
+analysis of bivariate dependencies, visualization
+
+# 4. Multivariate analysis (3 point)
+
+## a. Selection of methods (1 point)
+
+## b. Technical implementation (1 point)
+
+## c. Result presentation and interpretation (1 point)
+
+# 5. Critical evaluations (0.5 point) 
+
+report about possible sources of biases etc.

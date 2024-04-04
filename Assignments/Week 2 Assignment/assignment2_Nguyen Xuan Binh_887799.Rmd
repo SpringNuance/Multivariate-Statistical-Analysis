@@ -4,23 +4,28 @@ author: "Nguyen Xuan Binh"
 header-includes:
    - \usepackage{amssymb}
 output:
-  word_document:
-    toc: no
-    toc_depth: '1'
   pdf_document:
     toc: no
     toc_depth: 1
+  word_document:
+    toc: no
+    toc_depth: '1'
 urlcolor: blue
 ---
 
-# Homework Problem 1: PCA for Simulated Data
+# Homework Problem 2: PCA for Simulated Data
 
-Simulate 100 observations from bivariate normal distribution with parameters:\
+**Simulate 100 observations from bivariate normal distribution with parameters:**\
 
-$\quad\quad\quad\quad\quad\quad\quad\quad\mu=\begin{pmatrix} 4\\7\end{pmatrix}, \quad \Sigma=\begin{pmatrix}10 & 6\\6 & 8\end{pmatrix}.$
+**$\quad\quad\quad\quad\quad\quad\quad\quad\mu=\begin{pmatrix} 4\\7\end{pmatrix}, \quad \Sigma=\begin{pmatrix}10 & 6\\6 & 8\end{pmatrix}.$**
 
-## a) 
-Plot the data. Label the data points with the corresponding observation number.
+```{r}
+setwd(getwd())
+```
+
+---
+
+**a) Plot the data. Label the data points with the corresponding observation number.**
 
 ```{r}
 library("ggplot2")
@@ -44,8 +49,10 @@ ggplot(multinormData, aes(x = X1, y = X2)) +
   xlab("X1") + ylab("X2") 
 ```
 
-## b) 
-Perform the covariance based PCA transformation to the data set.
+
+---
+
+**b) Perform the covariance based PCA transformation to the data set.**
 ```{r}
 
 multinormData.PCA <- princomp(multinormData,cor=FALSE)
@@ -73,11 +80,9 @@ multinormData.PCA$n.obs
 cat("\nfunction input\n")
 multinormData.PCA$calls
 ```
+---
 
-## c) 
-Plot the score matrix. Use the same scale as in a) and label the data points
-with the corresponding observation number. Choose your scale (limits for the
-x- and y-axis) in a way that all the observations are visible in the figure.\
+**c) Plot the score matrix. Use the same scale as in a) and label the data points with the corresponding observation number. Choose your scale (limits for the x- and y-axis) in a way that all the observations are visible in the figure.**\
 ```{r}
 library(ggplot2)
 ggplot(data.frame(multinormData.PCA$scores), aes(x = Comp.1, y = Comp.2)) + 
@@ -86,9 +91,10 @@ ggplot(data.frame(multinormData.PCA$scores), aes(x = Comp.1, y = Comp.2)) +
   xlab("Component 1") + ylab("Component 2") 
 ```
 
-## d) 
 
-Compare the plots of a) and c) and describe the differences.\
+---
+
+**d) Compare the plots of a) and c) and describe the differences.**\
 
 ```{r}
 # Plot data and label points with observation number
@@ -103,10 +109,9 @@ ggplot(data.frame(multinormData.PCA$scores), aes(x = Comp.1, y = Comp.2)) +
 ```
 We can observe that the PCA transform has rotated the original data to be orthogonal to the axis. This is because the principal components are the eigenvectors of the covariance matrix of the data, which tries to maximize the difference between the datapoints. The first component has the largest eigenvalue, the second component has the second largest eigenvalue and so on. So in short, the difference between them is that the covariance between the original data is nonzero, while the covariance under the PCA transformed graph is zero or nearly zero. \
 
-## e) 
-Calculate the $G$ and $Y$ matrices without using any existing PCA functions.
-Note that the function princomp scales the covariance matrix with $1/n$ (instead
-of the usual $1/(n-1)$). Attach the R code to your solution.\
+--- 
+
+**e)  Calculate the $G$ and $Y$ matrices without using any existing PCA functions. Note that the function princomp scales the covariance matrix with $1/n$ (instead of the usual $1/(n-1)$). Attach the R code to your solution.**\
 
 The matrix G is the eigenvector matrix of the sample covariance matrix $\Sigma$
 The matrix Y is the sample PCA transformation: $Y = (X - 1_n\overline{x}^T)G$
@@ -145,16 +150,15 @@ print(Y)
 ```
 Note that the sign of the eigenvectors does not matter. Therefore, the matrix G produced here matches the referenced G matrix above by putting minus sign on the first component\
 
-## f)
-Verify that the estimated scores and the loadings are equal (up to signs) in
-parts b) and e). Hint: If parts b) and e) are done correctly, the scores and
-loadings should be the same up to heterogeneous sign changes.\
+---
+
+**f) Verify that the estimated scores and the loadings are equal (up to signs) in parts b) and e). Hint: If parts b) and e) are done correctly, the scores and loadings should be the same up to heterogeneous sign changes.**\
 
 Yes, they are equal, please scroll up to check part (b) and (e) again. The matrix G is the loadings matrix and the matrix Y is the scores matrix. Together, they make up the PCA transformation matrix, where the G * Y = PCA.\
 
-## g) 
-Plot the directions of the first and second principal component to the original
-data. The function arrows might be useful.\
+---
+
+**g) Plot the directions of the first and second principal component to the original data. The function arrows might be useful.**\
 
 ```{r}
 x <- multinormData.PCA$center["X1"]
@@ -170,14 +174,16 @@ ggplot(multinormData, aes(x = X1, y = X2)) +
   geom_segment(aes(x = x, y = y, xend = x + 2 * eigenVectorComponent1[1], 
                    yend = y + 2 * eigenVectorComponent1[2]),
                 arrow = arrow(length = unit(0.2, "cm"), type = "closed"),
-                color = "red", size = 1) +
-  annotate("text", x = x + 2 * eigenVectorComponent1[1] + 1, y = y + 2 *     eigenVectorComponent1[2] + 0.5, label = "First component", 
+                color = "red", linewidth = 1) +
+  annotate("text", x = x + 2 * eigenVectorComponent1[1] + 1, y = y + 2 *    
+             eigenVectorComponent1[2] + 0.5, label = "First component", 
            color = "red", size = 5) +   
   geom_segment(aes(x = x, y = y, xend = x + 2 * eigenVectorComponent2[1], 
                    yend = y + 2 * eigenVectorComponent2[2]),
                 arrow = arrow(length = unit(0.2, "cm"), type = "closed"),
-                color = "blue", size = 1) +
-  annotate("text", x = x + 2 * eigenVectorComponent2[1] + 2, y = y + 2 * eigenVectorComponent2[2] - 1, label = "Second component", 
+                color = "blue", lindwidth = 1) +
+  annotate("text", x = x + 2 * eigenVectorComponent2[1] + 2, y = y + 2 * 
+             eigenVectorComponent2[2] - 1, label = "Second component", 
            color = "blue", size = 5)
   
 ```

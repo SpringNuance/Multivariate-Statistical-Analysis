@@ -1,0 +1,32 @@
+---
+title: "Assignment 3"
+author: "Nguyen Xuan Binh"
+header-includes:
+   - \usepackage{amssymb}
+output:
+  pdf_document:
+    toc: no
+    toc_depth: 1
+  word_document:
+    toc: no
+    toc_depth: '1'
+urlcolor: blue
+---
+
+# Homework Problem 3: Maximizing Variance
+
+**Let $x$ denote a $p$-variate random vector with a finite mean vector $\mu$ and a finite full-rank covariance matrix $\Sigma$. Let $y_k = \gamma_k^T (x - \mu)$ denote the $k$th principal component of $x$. Let $b \in \mathbb{R}^p$ such that $b^Tb = 1$. Assume that $b^T x$ is uncorrelated with the first $k - 1$ principal components of $x$. Read lecture slides 2 carefully and give detailed proofs for the following.**
+
+---
+
+
+**(a) Let $b = d_1\gamma_1 + \ldots + d_p\gamma_p$. Show that $d_i = 0$, when $i < k$.**
+
+
+---
+
+**(b) Show that $\text{var}(y_k) \geq \text{var}(b^Tx)$.**
+
+**Be careful with your notation and note that $y_k \neq \gamma_k$.**
+
+
