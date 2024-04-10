@@ -74,6 +74,7 @@ Here I gather answers to common questions that have come up about the project wo
 Question 1: Is there a template for the project work?
 
 Answer: No there is not. Additionally, you can use any software for writing the project work as long as the report is polished. Possible options include LaTeX, Word, and R Markdown.
+
 Question 2: What is required for the univariate analysis?
 
 Answer: For the univariate analysis summary statistics (e.g., means, medians, variances, median absolute deviations, skewness, and kurtosis) and possible visualizations are enough. There is no need for conducting statistical testing or giving confidence intervals (but of course you can if you wish).
